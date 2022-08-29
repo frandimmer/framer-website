@@ -8,10 +8,10 @@ const Navbar = () => (
         className='navbar-logo'
         />
         <div className="navbar-buttons">
-            <a href="http://www.google.com">NOSOTROS</a>
-            <a href="http://www.google.com">PRODUCTOS</a>
-            <a href="http://www.google.com">SERVICIOS</a>
-            <a class='contact-button' href="http://www.google.com">CONTACTO</a>
+            <a  className="btn" href="http://www.google.com">NOSOTROS</a>
+            <a className="btn" href="http://www.google.com">PRODUCTOS</a>
+            <a className="btn" href="http://www.google.com">SERVICIOS</a>
+            <a class='contact-btn' href="http://www.google.com">CONTACTO</a>
         </div>
     </div>
 )

@@ -1,7 +1,7 @@
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
     top: 0;
     left: 0;
 }
@@ -13,21 +13,43 @@
     width: 100%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    filter: brightness(36%);
 }
 
 .hero-logo {
     position: absolute;
-    bottom: 10%;
-    left: 5%;
+    bottom: 0%;
+    left: 0%;
     width: 15%;
     margin-bottom: 12px;
 }
 
 .hero-logo-description {
     position: absolute;
-    bottom: 10%;
-    left: 5%;
+    bottom: 1%;
+    left: 0.25%;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
+}
+
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero-title-short {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 20px;
 }
