@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.hero-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.hero-logo {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 15%;
+    margin-bottom: 12px;
+}
+
+.hero-logo-description {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
