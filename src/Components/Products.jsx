@@ -7,6 +7,7 @@ function Products() {
 		<div className='products-container'>
 			<h1>NUESTROS PRODUCTOS</h1>
 				<h2>ELECTROBOMBAS</h2>
+				<p className='important-message'>IMPORTANTE: EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTA DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA</p>
 				<div className='electrobombas'>
 					<ProductCard 
 					nombre='S4000'
@@ -41,11 +42,43 @@ function Products() {
 					consumo=''
 					/>
 				</div>
-				<div className='minisurtidores'>
 				<h2>MINISURTIDORES</h2>
+				<div className='minisurtidores'>
+				<ProductCard 
+					nombre='Minisurtidor S7000'
+					caudal='0000'
+					entrada='0'
+					salida='0'
+					voltaje='12V'
+					consumo='0'
+					/>
+					<ProductCard 
+					nombre='Minisurtidor S15000'
+					caudal='0000'
+					entrada='0'
+					salida='0'
+					voltaje='12V'
+					consumo='0'
+					/>
+					<ProductCard 
+					nombre='Minisurtidor S15000'
+					caudal='0000'
+					entrada='0'
+					salida='0'
+					voltaje='12V'
+					consumo='0'
+					/>
 				</div>
-				<div className='accesorios'>
 				<h2>ACCESORIOS</h2>
+				<div className='accesorios'>
+				<ProductCard 
+					nombre='Minisurtidor S15000'
+					caudal='0000'
+					entrada='0'
+					salida='0'
+					voltaje='12V'
+					consumo='0'
+					/>
 				</div>		
 		</div>
 	)

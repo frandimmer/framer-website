@@ -14,7 +14,6 @@ h1 {
 }
 
 h2 {
-    margin-top: 50px;
     font-weight: 800;
     font-size: 1.75rem;
 }
@@ -22,6 +21,27 @@ h2 {
 .electrobombas {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 100px 0;
+    margin: 50px 0;
+    gap: 100px;
+}
+
+.important-message {
+    font-weight: 600;
+    color: red;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.minisurtidores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0;
+    gap: 100px;
+}
+
+.accesorios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 0;
     gap: 100px;
 }
