@@ -1,0 +1,21 @@
+.services-card-title-container {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.services-card-container {
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: rgb(46, 46, 46) 0px 5px 25px -10px;
+    flex-direction: column;
+    max-width: 400px;
+    height: 400px;
+}
+
+.services-text {
+    font-size: 1.5rem;
+}
