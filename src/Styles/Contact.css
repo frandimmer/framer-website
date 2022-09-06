@@ -1,0 +1,22 @@
+.contact-container {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.contact-numbers {
+    display: flex;
+    margin: 10px;
+    gap: 5px;
+}
+
+.contact-logos {
+    width: 30px;
+}
