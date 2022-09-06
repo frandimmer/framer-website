@@ -58,3 +58,9 @@
 .submit-button:hover {
     background-color: #fad654;
 }
+
+.recaptcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

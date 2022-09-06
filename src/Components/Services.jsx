@@ -4,7 +4,7 @@ import ServicesCard from './ServicesCard'
 
 function Services() {
   return (
-    <div className='services-container'>
+    <div id='services' className='services-container'>
       <h1 className='services-title'>NUESTROS SERVICIOS</h1>
       <div className='services-grid'>
         <ServicesCard 

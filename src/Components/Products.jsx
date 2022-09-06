@@ -4,7 +4,7 @@ import ProductCard from './ProductCard'
 
 function Products() {
 	return (
-		<div className='products-container'>
+		<div id='products' className='products-container'>
 			<h1>NUESTROS PRODUCTOS</h1>
 				<h2>ELECTROBOMBAS</h2>
 				<p className='important-message'>IMPORTANTE: EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTA DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</p>
