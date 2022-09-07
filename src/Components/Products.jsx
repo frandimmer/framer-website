@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/Products.css'
 import ProductCard from './ProductCard'
+import ProductCardV2 from './ProductCardV2'
 
 function Products() {
 	return (
@@ -39,6 +40,24 @@ function Products() {
 					<ProductCard
 					electrobomba={true} 
 					nombre='S21000'
+					caudal='21000'
+					entrada=''
+					salida=''
+					voltaje='12V o 24V'
+					consumo=''
+					/>
+					<ProductCard
+					electrobomba={true} 
+					nombre='S70000'
+					caudal='21000'
+					entrada=''
+					salida=''
+					voltaje='12V o 24V'
+					consumo=''
+					/>
+					<ProductCard
+					electrobomba={true} 
+					nombre='S7000-logo'
 					caudal='21000'
 					entrada=''
 					salida=''
@@ -142,7 +161,10 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				</div>		
+				</div>
+				<ProductCardV2 
+					nombre='S7000'		
+					/>		
 		</div>
 	)
 }

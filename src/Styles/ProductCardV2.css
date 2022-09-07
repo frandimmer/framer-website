@@ -1,0 +1,56 @@
+.product-card-v2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgb(143, 143, 143) 0px 0px 20px -5px;
+    width: 275px;
+    height: 325px;
+}
+
+.product-image-v2 {
+    position: absolute;
+    top: -10px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.product-title-v2 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: black;
+    margin: 15px 0;
+    bottom: 55px
+}
+
+.electrobomba-div {
+    width: 100%;
+}
+
+.product-button-v2 {
+    bottom: 5px;
+    position: absolute;
+    padding: 10px;
+    font-weight: 600;
+    margin: 15px 0;
+    background-color: #686751;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.product-image-v2:hover {
+    width: 265px;
+    top: -20px;
+}
+
+
+
