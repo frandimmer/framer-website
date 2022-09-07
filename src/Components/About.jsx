@@ -1,12 +1,11 @@
 import React from 'react'
 import '../Styles/About.css'
-import logo from '../Images/logo-2.png'
 
 function About() {
   return (
     <div id='about' className='about-container'>
       <div className='left'>
-        <img className='about-logo' src={logo} />
+        <img className='about-logo' src={require('../Images/logo-2.png')} />
       </div>
       <div className='right'>
         <h1 className='us-title'>NOSOTROS</h1>
