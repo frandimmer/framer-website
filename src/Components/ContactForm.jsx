@@ -36,8 +36,8 @@ function ContactForm() {
           <input type="email" id='e-mail' name='from_email'/>
         </div>
         <div>
-          <h3>MENSAJE</h3>
-          <textarea name='message' />
+        <label htmlFor="message">MENSAJE</label>
+          <textarea id='message' name='message' />
         </div>
         <div className='recaptcha'>
           <ReCAPTCHA

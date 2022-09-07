@@ -5,8 +5,8 @@ import ProductCard from './ProductCard'
 function Products() {
 	return (
 		<div id='products' className='products-container'>
-			<h1>NUESTROS PRODUCTOS</h1>
-				<h2>ELECTROBOMBAS</h2>
+			<h1 className='products-title'>NUESTROS PRODUCTOS</h1>
+				<h2 className='products-subtitle'>ELECTROBOMBAS</h2>
 				<p className='important-message'>IMPORTANTE: EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTA DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</p>
 				<div className='electrobombas'>
 					<ProductCard
@@ -46,7 +46,7 @@ function Products() {
 					consumo=''
 					/>
 				</div>
-				<h2>MINISURTIDORES</h2>
+				<h2 className='products-subtitle'>MINISURTIDORES</h2>
 				<p className='important-message'>IMPORTANTE: LOS MINISURTIDORES INCLUYEN 4 MTS. DE MANGUERA Y PICO A ELECCIÓN (TAMBIÉN SE PUEDE PEDIR SIN ESTOS ACCESORIOS).</p>
 				<div className='minisurtidores'>
 				<ProductCard
@@ -77,9 +77,10 @@ function Products() {
 					consumo='0'
 					/>
 				</div>
-				<h2>ACCESORIOS</h2>
+				<h2 className='products-subtitle'>ACCESORIOS</h2>
 				<div className='accesorios'>
-				<ProductCard 
+				<ProductCard
+					accesorio={true}
 					nombre='Caudalímetro Estándar'
 					caudal='0000'
 					entrada='0'
@@ -87,7 +88,8 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				<ProductCard 
+				<ProductCard
+					accesorio={true} 
 					nombre='Caudalímetro Grande'
 					caudal='0000'
 					entrada='0'
@@ -95,7 +97,8 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				<ProductCard 
+				<ProductCard
+					accesorio={true} 
 					nombre='Pico Manual'
 					caudal='0000'
 					entrada='0'
@@ -103,7 +106,8 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				<ProductCard 
+				<ProductCard
+					accesorio={true} 
 					nombre='Pico Automático Estándar'
 					caudal='0000'
 					entrada='0'
@@ -111,7 +115,8 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				<ProductCard 
+				<ProductCard
+					accesorio={true} 
 					nombre='Pico Automático Grande'
 					caudal='0000'
 					entrada='0'
@@ -119,7 +124,8 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				<ProductCard 
+				<ProductCard
+					accesorio={true} 
 					nombre='Manguera'
 					caudal='0000'
 					entrada='0'
@@ -127,7 +133,8 @@ function Products() {
 					voltaje='12V'
 					consumo='0'
 					/>
-				<ProductCard 
+				<ProductCard
+					accesorio={true} 
 					nombre='Filtro'
 					caudal='0000'
 					entrada='0'

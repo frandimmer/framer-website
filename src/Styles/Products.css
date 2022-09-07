@@ -50,3 +50,147 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width:1700px) {
+    .electrobombas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .minisurtidores {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .accesorios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .important-message {
+        margin: 20px 50px 0 50px;
+    }
+
+    }
+
+@media screen and (max-width:1240px) {
+    .products-title {
+        font-size: 2.5rem;
+    }
+
+    .products-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .products-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .electrobombas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .minisurtidores {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .accesorios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .important-message {
+        font-size: 0.75rem;
+    }
+
+    }
+
+@media screen and (max-width:800px) {
+
+    .electrobombas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .minisurtidores {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .accesorios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    }
+
+
+@media screen and (max-width:500px) {
+    .electrobombas {
+        gap: 20px;
+    }
+
+    .minisurtidores {
+        gap: 20px;
+    }
+
+    .accesorios {
+        gap: 20px;
+    }
+
+    .products-title {
+        font-size: 1.5rem;
+    }
+
+    .products-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .important-message {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .electrobombas {
+        gap: 15px;
+    }
+
+    .minisurtidores {
+        gap: 15px;
+    }
+
+    .accesorios {
+        gap: 15px;
+    }
+
+    .products-title {
+        font-size: 1.4rem;
+    }
+
+    .products-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .important-message {
+        font-size: 0.7rem;
+    }
+}
+

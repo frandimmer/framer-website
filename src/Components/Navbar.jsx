@@ -16,7 +16,7 @@ const Navbar = () => (
             </div>
         </div>
         <div className="whatsapp-button-container">
-            <a href="https://wa.me/+5493462659766">
+            <a href="https://web.whatsapp.com/send?phone=%2B5493462659766&text&type=phone_number&app_absent=0">
                 <img className="whatsapp-button" src={require('../Images/whatsapp.png')} alt="" />
             </a>
         </div>

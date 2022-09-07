@@ -12,15 +12,6 @@
     margin-top: 50px;
 }
 
-/* .contact-container {
-    margin-top: 50px;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
-
 h3 {
     font-size: 1.5rem;
 }
@@ -37,10 +28,37 @@ h3 {
 
 .bottom-section {
     display: flex;
-    background-color: white;
-    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0;
+    margin-bottom: 50px;
 }
+
+@media screen and (max-width:1240px) {
+    .contact-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    }
+
+@media screen and (max-width:700px) {
+    .contact-text {
+        font-size: 1rem;
+    }
+    .contact-logos {
+        width: 22px;
+    }
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    }
+
+@media screen and (max-width:500px) {
+    .contact-text {
+        font-size: 0.8rem;
+    }
+
+    .contact-logos {
+        width: 15px;
+    }
+    }
+

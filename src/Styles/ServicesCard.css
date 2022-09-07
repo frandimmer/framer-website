@@ -9,7 +9,7 @@
 .services-card-container {
     display: flex;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 12px;
     box-shadow: rgb(46, 46, 46) 0px 5px 25px -10px;
     flex-direction: column;
     width: 400px;
@@ -17,5 +17,124 @@
 }
 
 .services-text {
+    margin-top: 7px;
     font-size: 1.5rem;
 }
+
+.services-title {
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin: 50px 0;
+}
+
+.services-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px
+}
+
+@media screen and (max-width:1350px) {
+    .services-card-container {
+        width: 300px;
+        height: 350px;
+    }
+
+    .services-text {
+        font-size: 1.2rem;
+    }
+
+    .services-card-title {
+        font-size: 1.4rem;
+    }
+
+    }
+
+@media screen and (max-width:1150px) {
+    .services-card-title-container {
+        margin-bottom: 5px;
+    }
+
+    .services-card-container {
+        width: 200px;
+        height: 275px;
+    }
+
+    .services-text {
+        font-size: 0.85rem;
+    }
+
+    .services-card-title {
+        font-size: 1rem;
+    }
+
+    .services-logo {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .services-title {
+        font-size: 2.5rem;
+    }
+
+    }
+
+@media screen and (max-width:700px) {
+    .services-card-title-container {
+        margin-bottom: 5px;
+    }
+
+    .services-card-container {
+        width: 175px;
+        height: 250px;
+    }
+
+    .services-text {
+        font-size: 0.75rem;
+    }
+
+    .services-card-title {
+        font-size: 1rem;
+    }
+
+    .services-logo {
+        width: 20px;
+        margin-right: 4px;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    }
+
+@media screen and (max-width:400px) {
+    .services-card-title-container {
+        margin-bottom: 5px;
+    }
+
+    .services-card-container {
+        width: 225px;
+        height: 250px;
+    }
+
+    .services-text {
+        font-size: 0.85rem;
+    }
+
+    .services-card-title {
+        font-size: 1.2rem;
+    }
+
+    .services-logo {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .services-title {
+        font-size: 1.6rem;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+
+    }
+
