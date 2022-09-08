@@ -1,3 +1,16 @@
+.title {
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.subtitle {
+    font-weight: 800;
+    font-size: 2.25rem;
+    font-family: 'Lato', sans-serif;
+}
+
 .hero-container {
     position: relative;
     text-align: center;

@@ -1,0 +1,15 @@
+.copyright-container {
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.copyright-img {
+    width: 100px;
+    margin-right: 10px;
+}

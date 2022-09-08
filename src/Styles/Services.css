@@ -1,12 +1,14 @@
 .services-container {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid black;
     justify-content: center;
     align-items: center;
     font-family: 'Lato', sans-serif;
-    border-bottom: 1px solid black;
     padding-bottom: 75px;
+}
+
+.services-title {
+    margin: 75px 0;
 }
 
 .services-grid {

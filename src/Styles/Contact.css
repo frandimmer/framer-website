@@ -1,6 +1,6 @@
 .contact-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     font-family: 'Lato', sans-serif;
 }
 
@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     font-family: 'Lato', sans-serif;
-    margin-top: 50px;
 }
 
 h3 {

@@ -5,7 +5,7 @@ import ServicesCard from './ServicesCard'
 function Services() {
   return (
     <div id='services' className='services-container'>
-      <h1 className='services-title'>NUESTROS SERVICIOS</h1>
+      <h1 className='services-title title'>NUESTROS SERVICIOS</h1>
       <div className='services-grid'>
         <ServicesCard 
         name='GARANTÍA'
@@ -20,7 +20,7 @@ function Services() {
         <ServicesCard 
         name='ASESORAMIENTO'
         img='advice'
-        text='Brindamos asesoramiento a todos nuestros clientes para que los mismos se encuentren satisfechos con el producto que obtienen y para que puedan elegir aquel que mas se adapte a sus necesidades.'
+        text='Brindamos asesoramiento a todos nuestros clientes para que los mismos se encuentren satisfechos con el producto que obtienen y para que puedan elegir aquel que mas se adapte a sus necesidades. Ademas, ofrecemos soporte tecnico a la hora de instalar nuestras herramientas.'
         />
       </div>
     </div>

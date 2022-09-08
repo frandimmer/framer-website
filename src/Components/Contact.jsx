@@ -6,18 +6,18 @@ function Contact() {
   return (
     <div id='contact'>
       <div className='contact-title-container'>
-      <h1 className='contact-title'>CONTACTO</h1>
+      <h1 className='contact-title title'>CONTACTO</h1>
       </div>
       <div className='contact-container'>
         <ContactForm />
         <div className='bottom-section'>
           <div className='contact-numbers'>
             <img className='contact-logos' src={require('../Images/phone.png')}/>
-            <h3 className='contact-text'>TELÉFONO: 3462423383</h3>
+            <h3 className='contact-text'>TELÉFONO: (03462) 423383</h3>
           </div>
           <div className='contact-numbers'>
             <img className='contact-logos' src={require('../Images/whatsapp.png')}/>
-            <h3 className='contact-text'>WHATSAPP: 3462423383</h3>
+            <h3 className='contact-text'>WHATSAPP: (03462) 659766</h3>
           </div>
           <div className='contact-numbers'>
             <img className='contact-logos' src={require('../Images/mail.png')}/>

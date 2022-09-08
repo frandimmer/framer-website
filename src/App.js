@@ -5,28 +5,20 @@ import About from './Components/About';
 import Products from './Components/Products';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import ProductsV2 from './Components/ProductsV2';
 
 function App() {
   return (
     <div className="App">
-      <div className='navbar'>
       <Navbar />
-      </div>
-      <div className='hero'>
       <Hero />
-      </div>
-      <div className='about'>
-        <About />
-      </div>
-      <div className='products'>
-        <Products />
-      </div>
-      <div>
-        <Services />
-      </div>
-      <div>
-        <Contact />
-      </div>
+      <ProductsV2 />
+      {/* <About /> */}
+      {/* <Products /> */}
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   );
 }
