@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/ProductsV2.css'
+import ProductCardV2 from './ProductCardV2'
 
 function ProductsV2() {
   return (
@@ -10,19 +11,34 @@ function ProductsV2() {
       <div className='products-subtitle-container'>
         <h1 className='subtitle'>ELECTROBOMBAS</h1>
       </div>
+      
       <div className='products-images-container'>
-        <img className='products-images-banner' src={require('../Images/Products/S4000.png')} alt="S4000" />
-        <img className='products-images-banner' src={require('../Images/Products/S7000.png')} alt="S7000" />
-        <img className='products-images-banner' src={require('../Images/Products/S15000.png')} alt="S15000" />
-        <img className='products-images-banner' src={require('../Images/Products/S21000.png')} alt="S21000" />
+        <ProductCardV2 
+        nombre='S4000'
+        />
+        <ProductCardV2 
+        nombre='S7000'
+        />
+        <ProductCardV2 
+        nombre='S15000'
+        />
+        <ProductCardV2 
+        nombre='S21000'
+        />
       </div>
       <div className='products-subtitle-container'>
         <h1 className='subtitle'>MINISURTIDORES</h1>
       </div>
       <div className='products-images-container'>
-        <img className='products-images-banner' src={require('../Images/Products/Minisurtidor S7000.png')} alt="Minisurtidor S7000" />
-        <img className='products-images-banner' src={require('../Images/Products/Minisurtidor S15000.png')} alt="Minisurtidor S15000" />
-        <img className='products-images-banner' src={require('../Images/Products/Minisurtidor S15000.png')} alt="Minisurtidor S21000" />
+        <ProductCardV2 
+        nombre='Minisurtidor S7000'
+        />
+        <ProductCardV2 
+        nombre='Minisurtidor S15000'
+        />
+        <ProductCardV2 
+        nombre='Minisurtidor S15000'
+        />
       </div>
       <div className='products-subtitle-container'>
         <h1 className='subtitle'>ACCESORIOS</h1>
