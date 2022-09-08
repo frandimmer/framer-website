@@ -24,8 +24,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     filter: brightness(36%);
 }
 

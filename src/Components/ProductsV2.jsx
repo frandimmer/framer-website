@@ -11,48 +11,66 @@ function ProductsV2() {
       <div className='products-subtitle-container'>
         <h1 className='subtitle'>ELECTROBOMBAS</h1>
       </div>
-      
       <div className='products-images-container'>
-        <ProductCardV2 
-        nombre='S4000'
-        />
-        <ProductCardV2 
-        nombre='S7000'
-        />
-        <ProductCardV2 
-        nombre='S15000'
-        />
-        <ProductCardV2 
-        nombre='S21000'
-        />
+        <div className='electrobombas-grid'>
+          <ProductCardV2 
+          nombre='S4000'
+          />
+          <ProductCardV2 
+          nombre='S7000'
+          />
+          <ProductCardV2 
+          nombre='S15000'
+          />
+          <ProductCardV2 
+          nombre='S21000'
+          />
+        </div>
       </div>
       <div className='products-subtitle-container'>
         <h1 className='subtitle'>MINISURTIDORES</h1>
       </div>
       <div className='products-images-container'>
-        <ProductCardV2 
-        nombre='Minisurtidor S7000'
-        />
-        <ProductCardV2 
-        nombre='Minisurtidor S15000'
-        />
-        <ProductCardV2 
-        nombre='Minisurtidor S15000'
-        />
+        <div className='minisurtidores-grid'>
+          <ProductCardV2 
+          nombre='Minisurtidor S7000'
+          />
+          <ProductCardV2 
+          nombre='Minisurtidor S15000'
+          />
+          <ProductCardV2 
+          nombre='Minisurtidor S15000'
+          />
+        </div>
       </div>
-      <div className='products-subtitle-container'>
-        <h1 className='subtitle'>ACCESORIOS</h1>
-      </div>
-      <div className='products-images-container'>
-        <img className='products-images-banner' src={require('../Images/Products/Caudalímetro Estándar.png')} alt="Caudalímetro Estándar" />
-        <img className='products-images-banner' src={require('../Images/Products/Pico Manual.png')} alt="Pico Manual" />
-        <img className='products-images-banner' src={require('../Images/Products/Pico Automático Grande.png')} alt="Pico Automático Grande" />
-        <img className='products-images-banner' src={require('../Images/Products/Manguera.png')} alt="Manguera" />
-      </div>
-      <div className='products-button-container'>
-          <a className='products-button' href="">VER TODOS LOS PRODUCTOS</a>
-      </div>
-
+        <div className='products-subtitle-container'>
+          <h1 className='subtitle'>ACCESORIOS</h1>
+        </div>
+        <div className='products-images-container'>
+          <div className='accesorios-grid'>
+            <ProductCardV2 
+            nombre='Caudalímetro Estándar'
+            />
+            <ProductCardV2 
+            nombre='Caudalímetro Grande'
+            />
+            <ProductCardV2 
+            nombre='Pico Manual'
+            />
+            <ProductCardV2 
+            nombre='Pico Automático Estándar'
+            />
+            <ProductCardV2 
+            nombre='Pico Automático Grande'
+            />
+            <ProductCardV2 
+            nombre='Manguera'
+            />
+            <ProductCardV2 
+            nombre='Filtro'
+            />
+          </div>
+        </div>
     </div>
   )
 }
