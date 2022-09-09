@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import '../Styles/ProductModal.css'
 
-function ProductModal({ state, setState, nombre }) {
+function ProductModal({ state, setState, nombre, electrobomba }) {
   return (
     <>
       {state && 
@@ -10,7 +11,28 @@ function ProductModal({ state, setState, nombre }) {
             <ModalTitle>
               <h1>{nombre}</h1>
             </ModalTitle>
-
+            <ModalGrid>
+                <div className='centered-div'>
+                <img className='grid-image' src={require(`../Images/Products/${nombre}.png`)} alt={nombre} />
+                </div>
+                <div className='centered-div'>
+                  <div className='modal-grid-container'>
+                    <div className='grid-div first'>Entrada</div>
+                    <div className='grid-div second'>2</div>
+                    <div className='grid-div first'>Salida</div>
+                    <div className='grid-div second'>4</div>
+                    <div className='grid-div first'>Caudal</div>
+                    <div className='grid-div second'>6</div>
+                    <div className='grid-div first'>Voltaje</div>
+                    <div className='grid-div second'>8</div>
+                    <div className='grid-div first'>Peso</div>
+                    <div className='grid-div second'>10</div>
+                  </div>
+                </div>
+            </ModalGrid>
+            <ModalImportant>
+              {electrobomba ? (<h3 className='modal-important'>IMPORTANTE: EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTA DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</h3>) : ('')}
+            </ModalImportant>
             <CloseButton onClick={() => setState(false)}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
               <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -44,33 +66,32 @@ const Overlay = styled.div`
 `;
 
 const ModalContainer = styled.div`
-  width: 500px;
-  min-height: 100px;
+  width: 1000px;
+  min-height: 550px;
   background: #fff;
   position: relative;
-  border-radius: 5px;
+  border-radius: 24px;
   padding: 20px;
+  font-family: 'Lato', sans-serif;
 `;
 
 const ModalTitle = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-botton: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #E8E8E8;
+  justify-content: center;
+  margin: 15px 0;
 
   h1 {
     font-weight: 800;
-    font-size: 16px;
-    color: #1766DC;
+    font-size: 2.5rem;
+    color: black;
   }
 `;
 
 const CloseButton = styled.button`
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
   width: 30px;
   height: 30px;
   border: none;
@@ -78,14 +99,26 @@ const CloseButton = styled.button`
   cursor: pointer;
   transition: 0.3s ease all;
   border-radius: 5px;
-  color: #1766DC;
-
-  &:hover {
-    background: #F2F2F2;
-  }
+  color: black;
 
   svg {
     width: 100%;
     height: 100%;
   }
 `;
+
+const ModalGrid = styled.div`
+  display: grid; 
+  grid-template-rows: ;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  height: 500px;
+
+`;
+
+const ModalImportant = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+

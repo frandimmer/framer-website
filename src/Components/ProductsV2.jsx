@@ -13,16 +13,20 @@ function ProductsV2() {
       </div>
       <div className='products-images-container'>
         <div className='electrobombas-grid'>
-          <ProductCardV2 
+          <ProductCardV2
+          electrobomba={true} 
           nombre='S4000'
           />
-          <ProductCardV2 
+          <ProductCardV2
+          electrobomba={true}  
           nombre='S7000'
           />
-          <ProductCardV2 
+          <ProductCardV2
+          electrobomba={true}  
           nombre='S15000'
           />
-          <ProductCardV2 
+          <ProductCardV2
+          electrobomba={true}  
           nombre='S21000'
           />
         </div>

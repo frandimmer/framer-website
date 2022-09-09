@@ -21,6 +21,7 @@ function ProductCardV2({ electrobomba, minisurtidor, accesorio, nombre, caudal, 
       state={modalState}
       setState={setModalState}
       nombre={nombre}
+      electrobomba={electrobomba}
       />
     </div>
   )

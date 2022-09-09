@@ -1,0 +1,40 @@
+.grid-image {
+    /* background-color: rgb(245, 245, 245); */
+    border-radius: 5px;
+}
+
+.modal-text {
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.modal-important {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: red;
+    margin-top: 60px;
+}
+
+.centered-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-grid-container {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+}
+
+.grid-div {
+    padding: 20px 40px;
+    font-size: 1.95rem;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+.first {
+    font-weight: 800;
+}
