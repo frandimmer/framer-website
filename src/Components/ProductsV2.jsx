@@ -4,7 +4,7 @@ import ProductCardV2 from './ProductCardV2'
 
 function ProductsV2() {
   return (
-    <div className='products-container'>
+    <div id='products' className='products-container'>
       <div className='products-title-container'>
         <h1 className='title'>NUESTROS PRODUCTOS</h1>
       </div>

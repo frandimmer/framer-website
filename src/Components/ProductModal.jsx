@@ -31,7 +31,7 @@ function ProductModal({ state, setState, nombre, electrobomba }) {
                 </div>
             </ModalGrid>
             <ModalImportant>
-              {electrobomba ? (<h3 className='modal-important'>IMPORTANTE: EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTA DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</h3>) : ('')}
+              {electrobomba ? (<div className='modal-important-container'><h3 className='modal-important-title'>IMPORTANTE</h3><h3 className='modal-important'>EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTÁ DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</h3><h3 className='modal-important'>SE DEBE ESPECIFICAR SI LA ELECTROBOMBA SERÁ UTILIZADA CON GAS-OIL, AGUA O AGROQUÍMICOS.</h3></div>) : ('')}
             </ModalImportant>
             <CloseButton onClick={() => setState(false)}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">

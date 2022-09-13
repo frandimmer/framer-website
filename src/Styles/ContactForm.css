@@ -50,10 +50,10 @@
     background-color: #F8C302;
     border: none;
     border-radius: 50px;
-    box-shadow: rgb(46, 46, 46) 0px 5px 25px -10px;
     width: 100%;
     cursor: pointer;
     color: white;
+    transition: 0.2s ease;
 }
 
 .submit-button:hover {
