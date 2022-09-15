@@ -10,7 +10,7 @@
 }
 
 .navbar-logo {
-    margin-left: 300px;
+    margin: 0 100px 0 100px;
     display: flex;
     width: 230px;
     height: 130px;
@@ -28,7 +28,7 @@
     color: black;
     padding: 10px 20px;
     font-weight: 900;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .btn:link {
@@ -51,7 +51,7 @@
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     font-weight: 900;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
 .contact-btn:link {
@@ -78,12 +78,76 @@
     filter: drop-shadow(0px 2px 7px #222);
 }
 
+.hamburger {
+    display: none;
+}
+
 @media screen and (max-width:1240px) {
-    .navbar-container{
-        display: none;
+    .hamburger {
+        display: flex;
+        margin: 0 30px 0;
+        cursor: pointer;
     }
+
     .whatsapp-button {
         width: 40px;
+    }
+
+    .navbar-logo {
+        width: 120px;
+        height: 75px;
+        margin: 0 0 0 20px;
+    }
+
+    .navbar-buttons-container {
+        background-color: white;
+        z-index: 1;
+    }
+
+    .navbar-buttons {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 75px;
+        right: -115%;
+        width: 50%;
+        background-color: white;
+        padding: 20px;
+        border-left: 1px solid #eee;
+        height: 100vh;
+        z-index: 1;
+        transition: 0.6s ease;
+    }
+
+    .navbar-buttons.active {
+        right: -65%;
+        transition: 0.6s ease;
+    }
+
+    .contact-btn {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 0;
+    }
+
+    .contact-btn:link {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .contact-btn:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    .contact-btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .btn:hover {
+        color: black;
     }
 
     }

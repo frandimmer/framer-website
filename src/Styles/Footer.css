@@ -13,3 +13,14 @@
     width: 100px;
     margin-right: 10px;
 }
+
+@media screen and (max-width:700px) {
+    .copyright-img {
+        width: 60px;
+    }
+
+    .copyright-container {
+        font-size: 0.6rem;
+        height: 60px;
+    }
+}

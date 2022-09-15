@@ -73,6 +73,14 @@ const ModalContainer = styled.div`
   border-radius: 24px;
   padding: 20px;
   font-family: 'Lato', sans-serif;
+  @media screen and (max-width:1100px) {
+    width: 800px;
+  }
+  
+  @media screen and (max-width:800px) {
+    width: 450px;
+    min-height: 750px
+  }
 `;
 
 const ModalTitle = styled.div`
@@ -85,6 +93,12 @@ const ModalTitle = styled.div`
     font-weight: 800;
     font-size: 2.5rem;
     color: black;
+  }
+
+  @media screen and (max-width:1100px) {
+    h1 {
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -113,7 +127,16 @@ const ModalGrid = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 0px;
   height: 500px;
+  @media screen and (max-width:1100px) {
 
+  }
+  
+  @media screen and (max-width:800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
 `;
 
 const ModalImportant = styled.div`

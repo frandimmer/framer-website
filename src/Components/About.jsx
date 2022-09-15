@@ -6,14 +6,18 @@ function About() {
   return (
     <div className='about-section'>
       <div className='about-title-container'>
-        <h1 className='about-title'>NOSOTROS</h1>
+        <h1 id='about' className='title'>NOSOTROS</h1>
       </div>
       <div className='about-grid-container'>
         <div className='left'>
         <img className='about-logo' src={require('../Images/logo-2.png')} />
         </div>
         <div className='right'>
-          <h2>QUIENES SOMOS?</h2>
+          <div className='about-right-center'>
+            <h2 className='subtitle'>¿QUIENES SOMOS?</h2>
+            <p className='about-paragraph'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aut doloribus sequi nihil nemo, error fuga deserunt fugit corporis sint. Provident architecto magni minus dolor quidem voluptate tempora sunt aspernatur?</p>
+          </div>
+          
         </div>
       </div>
     </div>

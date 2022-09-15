@@ -69,3 +69,18 @@
     opacity:0.08;
     z-index:1;
 }
+
+
+@media screen and (max-width:600px) {
+    .product-card-v2 {
+        width: 200px;
+    }
+
+    .product-image-v2 {
+        width: 175px;
+    }
+
+    .product-title-v2 {
+        font-size: 1.1rem;
+    }
+}
