@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 .navbar-container {
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,7 +90,9 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width:1240px) {
-
+    .navbar-container {
+        position: fixed;
+    }
 
     .hamburger {
         display: flex;
