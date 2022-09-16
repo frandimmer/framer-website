@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import {Helmet} from "react-helmet";
 import '../Styles/Navbar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {BrowserView, MobileView} from 'react-device-detect';
@@ -11,9 +10,6 @@ function Navbar() {
 
     return (
     <div>
-        <Helmet>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        </Helmet>
         <div className="navbar-container">
                 <img src={require('../Images/logo-2.png')}
                 className='navbar-logo'
