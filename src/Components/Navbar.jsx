@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../Styles/Navbar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import {BrowserView, MobileView} from 'react-device-detect';
 
 function Navbar() {
 
@@ -12,6 +13,7 @@ function Navbar() {
         <div className="navbar-container">
                 <img src={require('../Images/logo-2.png')}
                 className='navbar-logo'
+                alt="Framer logo"
                 />
                 <div className='navbar-buttons-container'>
                     <div className={click ? 'navbar-buttons active' : 'navbar-buttons'}>
@@ -27,9 +29,16 @@ function Navbar() {
         </div>
         
         <div className="whatsapp-button-container">
-            <a href="https://web.whatsapp.com/send?phone=%2B5493462659766&text&type=phone_number&app_absent=0">
-                <img className="whatsapp-button" src={require('../Images/whatsapp.png')} alt="" />
-            </a>
+            <BrowserView>
+                <a href="https://web.whatsapp.com/send?phone=%2B5493462659766&text&type=phone_number&app_absent=0">
+                    <img className="whatsapp-button" src={require('../Images/whatsapp.png')} alt="Whatsapp button" />
+                </a>
+            </BrowserView>
+            <MobileView>
+                <a href="whatsapp://send?phone=5493462659766">
+                    <img className="whatsapp-button" src={require('../Images/whatsapp.png')} alt="Whatsapp button" />
+                </a>
+            </MobileView>
         </div>
     </div>
     

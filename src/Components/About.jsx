@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/About.css'
-import ServicesCard from '../Components/ServicesCard'
 
 function About() {
   return (
@@ -10,7 +9,7 @@ function About() {
       </div>
       <div className='about-grid-container'>
         <div className='left'>
-        <img className='about-logo' src={require('../Images/logo-2.png')} />
+        <img className='about-logo' src={require('../Images/logo-2.png')} alt='Framer logo' />
         </div>
         <div className='right'>
           <div className='about-right-center'>
