@@ -133,7 +133,7 @@ body::-webkit-scrollbar {
     }
 
     .navbar-buttons.active {
-        right: -65%;
+        right: -71%;
         transition: 0.6s ease;
     }
 
