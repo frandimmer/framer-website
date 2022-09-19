@@ -16,42 +16,42 @@ function ProductsV2() {
           <ProductCardV2
           electrobomba={true} 
           nombre='S4000'
-          entrada='1'
-          salida='1'
-          caudal='1'
-          voltaje='1'
-          peso='1'
-          consumo='1'
+          entrada='1/2"'
+          salida='1/2"'
+          caudal='4000 lts/h'
+          voltaje='12v'
+          peso='3,4 kg'
+          consumo='16 amp/h'
           />
           <ProductCardV2
           electrobomba={true}  
           nombre='S7000'
-          entrada='1'
-          salida='1'
-          caudal='1'
-          voltaje='1'
-          peso='1'
-          consumo='1'
+          entrada='1"'
+          salida='3/4"'
+          caudal='7000 lts/h'
+          voltaje='12v o 24v'
+          peso='4,5 kg'
+          consumo='12v: 22 amp/h 24v: 12 amp/h'
           />
           <ProductCardV2
           electrobomba={true}  
           nombre='S15000'
-          entrada='1'
-          salida='1'
-          caudal='1'
-          voltaje='1'
-          peso='1'
-          consumo='1'
+          entrada='2"'
+          salida='1 1/2"'
+          caudal='15000 lts/h'
+          voltaje='12v'
+          peso='9,5 kg'
+          consumo='39 amp/h'
           />
           <ProductCardV2
           electrobomba={true}  
           nombre='S21000'
-          entrada='1'
-          salida='1'
-          caudal='1'
-          voltaje='1'
-          peso='1'
-          consumo='1'
+          entrada='2"'
+          salida='1 1/2"'
+          caudal='21000 lts/h'
+          voltaje='12v o 24v'
+          peso='11,5 kg'
+          consumo='12v: 70 amp/h 24v: 40 amp/h'
           />
         </div>
       </div>

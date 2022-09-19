@@ -64,8 +64,6 @@ function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, acc
 
 export default ProductModal
 
-
-
 const Overlay = styled.div`
   width: 100vw;
   height: 100vh;
