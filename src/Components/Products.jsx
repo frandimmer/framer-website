@@ -18,6 +18,7 @@ function Products() {
 					salida=''
 					voltaje='12V'
 					consumo=''
+					peso='5kg'
 					/>
 					<ProductCard
 					electrobomba={true} 
@@ -40,24 +41,6 @@ function Products() {
 					<ProductCard
 					electrobomba={true} 
 					nombre='S21000'
-					caudal='21000'
-					entrada=''
-					salida=''
-					voltaje='12V o 24V'
-					consumo=''
-					/>
-					<ProductCard
-					electrobomba={true} 
-					nombre='S70000'
-					caudal='21000'
-					entrada=''
-					salida=''
-					voltaje='12V o 24V'
-					consumo=''
-					/>
-					<ProductCard
-					electrobomba={true} 
-					nombre='S7000-logo'
 					caudal='21000'
 					entrada=''
 					salida=''

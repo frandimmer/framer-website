@@ -24,7 +24,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    filter: brightness(36%);
+    filter: brightness(35%);
+}
+
+.hero-img-mobile {
+    display: none;
 }
 
 .hero-title {
@@ -83,17 +87,27 @@
 }
 
 @media screen and (max-width:500px) {
+    .hero-img-mobile {
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        filter: brightness(35%);
+    }
     .hero-img {
+        display: none;
         width: 100%;
         top: 45%;
     }
     .hero-title {
         transform: translate(-50%, -40%);
-        min-width: 300px;
-        font-size: 1.6rem;
+        min-width: 450px;
+        font-size: 1.95rem;
     }
     .hero-title-short {
-        font-size: 0.7rem;
-        min-width: 200px;
+        font-size: 1.2rem;
+        min-width: 300px;
     }
 }

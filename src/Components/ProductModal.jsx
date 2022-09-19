@@ -2,32 +2,48 @@ import React from 'react'
 import styled from 'styled-components'
 import '../Styles/ProductModal.css'
 
-function ProductModal({ state, setState, nombre, electrobomba }) {
+function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, accesorio, caudal, voltaje, entrada, salida, consumo, peso }) {
   return (
     <>
       {state && 
         <Overlay>
           <ModalContainer>
             <ModalTitle>
-              <h1>{nombre}</h1>
+              <h1 className='title'>{nombre}</h1>
             </ModalTitle>
             <ModalGrid>
                 <div className='centered-div'>
                 <img className='grid-image' src={require(`../Images/Products/${nombre}.png`)} alt={nombre} />
                 </div>
                 <div className='centered-div'>
-                  <div className='modal-grid-container'>
+                  {electrobomba ? (<div className='modal-grid-container'>
                     <div className='grid-div first'>Entrada</div>
-                    <div className='grid-div second'>2</div>
+                    <div className='grid-div second'>{entrada}</div>
                     <div className='grid-div first'>Salida</div>
-                    <div className='grid-div second'>4</div>
+                    <div className='grid-div second'>{salida}</div>
                     <div className='grid-div first'>Caudal</div>
-                    <div className='grid-div second'>6</div>
+                    <div className='grid-div second'>{caudal}</div>
                     <div className='grid-div first'>Voltaje</div>
-                    <div className='grid-div second'>8</div>
+                    <div className='grid-div second'>{voltaje}</div>
                     <div className='grid-div first'>Peso</div>
-                    <div className='grid-div second'>10</div>
-                  </div>
+                    <div className='grid-div second'>{peso}</div>
+                    <div className='grid-div first'>Consumo</div>
+                    <div className='grid-div second'>{consumo}</div>
+                  </div>) : ('')}
+                  {minisurtidor ? (<div className='modal-grid-container'>
+                    <div className='grid-div first'>Entrada</div>
+                    <div className='grid-div second'>{entrada}</div>
+                    <div className='grid-div first'>Salida</div>
+                    <div className='grid-div second'>{salida}</div>
+                    <div className='grid-div first'>Caudal</div>
+                    <div className='grid-div second'>{caudal}</div>
+                    <div className='grid-div first'>Voltaje</div>
+                    <div className='grid-div second'>{voltaje}</div>
+                    <div className='grid-div first'>Peso</div>
+                    <div className='grid-div second'>{peso}</div>
+                    <div className='grid-div first'>Consumo</div>
+                    <div className='grid-div second'>{consumo}</div>
+                  </div>) : ('')}
                 </div>
             </ModalGrid>
             <ModalImportant>
@@ -39,7 +55,6 @@ function ProductModal({ state, setState, nombre, electrobomba }) {
               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
               </svg>
             </CloseButton>
-
           </ModalContainer>
         </Overlay>
       }

@@ -16,18 +16,42 @@ function ProductsV2() {
           <ProductCardV2
           electrobomba={true} 
           nombre='S4000'
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
           <ProductCardV2
           electrobomba={true}  
           nombre='S7000'
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
           <ProductCardV2
           electrobomba={true}  
           nombre='S15000'
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
           <ProductCardV2
           electrobomba={true}  
           nombre='S21000'
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
         </div>
       </div>
@@ -38,12 +62,33 @@ function ProductsV2() {
         <div className='minisurtidores-grid'>
           <ProductCardV2 
           nombre='Minisurtidor S7000'
+          minisurtidor={true}
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
           <ProductCardV2 
           nombre='Minisurtidor S15000'
+          minisurtidor={true}
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
           <ProductCardV2 
           nombre='Minisurtidor S15000'
+          minisurtidor={true}
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
           />
         </div>
       </div>
