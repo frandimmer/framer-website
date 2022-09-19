@@ -9,7 +9,7 @@ function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, acc
         <Overlay>
           <ModalContainer>
             <ModalTitle>
-              <h1 className='title'>{nombre}</h1>
+              <h1 className='title modal-title'>{nombre}</h1>
             </ModalTitle>
             <ModalGrid>
                 <div className='centered-div'>

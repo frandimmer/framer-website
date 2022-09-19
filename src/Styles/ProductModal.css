@@ -8,6 +8,10 @@
     margin: 15px 0;
 }
 
+.modal-title{
+    margin-top: 25px;
+}
+
 .modal-important-container {
     display: flex;
     align-items: center;
@@ -19,6 +23,7 @@
     font-size: 1.1rem;
     font-weight: 800;
     color: red;
+    margin-bottom: 10px;
 }
 
 .modal-important {
@@ -66,7 +71,7 @@
         font-size: 0.9rem;
     }
     .modal-important-container {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .grid-image {
         width: 60%;
