@@ -86,6 +86,7 @@ const ModalContainer = styled.div`
   border-radius: 24px;
   padding: 20px;
   font-family: 'Lato', sans-serif;
+
   @media screen and (max-width:1400px) {
     width: 800px;
   }
@@ -121,8 +122,8 @@ const ModalTitle = styled.div`
 
 const CloseButton = styled.button`
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 12px;
+  right: 12px;
   width: 30px;
   height: 30px;
   border: none;
