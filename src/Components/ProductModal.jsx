@@ -96,7 +96,7 @@ const ModalContainer = styled.div`
   
   @media screen and (max-width:800px) {
     width: 450px;
-    min-height: 700px
+    min-height: 625px
   }
 `;
 
