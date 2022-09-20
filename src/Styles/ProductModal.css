@@ -20,7 +20,7 @@
 }
 
 .modal-important-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 800;
     color: red;
     margin-bottom: 10px;
@@ -47,7 +47,7 @@
 
 .grid-div {
     padding: 15px 15px;
-    font-size: 1.95rem;
+    font-size: 1.5rem;
     border: 1px solid rgb(220, 220, 220);
     border-radius: 5px;
 }
@@ -56,26 +56,66 @@
     font-weight: 800;
 }
 
+@media screen and (max-width:1400px) {
+    .grid-image {
+        width: 85%;
+    }
+    .grid-div {
+        font-size: 1.3rem;
+        width: 170px;
+    }
+    .modal-title {
+        margin-bottom: -20px;
+    }
+    .modal-important-container {
+        margin-top: -40px;
+    }
+}
+
 @media screen and (max-width:1100px) {
     .grid-div {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
+        width: 150px;
     }
+
+    .modal-important-container {
+        margin-top: -60px;
+    }
+
+    .modal-important-title {
+        font-size: 0.9rem;
+    }
+
+    .modal-important {
+        font-size: 0.7rem;
+    }
+
+    .modal-title{
+        margin-bottom: -55px;
+    }
+
+    .grid-image {
+        width: 75%;
+    }
+
+
 }
 
 @media screen and (max-width:800px) {
     .grid-div {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 10px 15px;
+        width: 150px;
     }
     .modal-important-title {
         font-size: 0.9rem;
     }
     .modal-important-container {
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .grid-image {
-        width: 60%;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        width: 50%;
+        margin-top: 140px;
+        margin-bottom: 15px;
     }
 }

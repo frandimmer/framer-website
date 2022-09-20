@@ -47,7 +47,7 @@ function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, acc
                 </div>
             </ModalGrid>
             <ModalImportant>
-              {electrobomba ? (<div className='modal-important-container'><h3 className='modal-important-title'>IMPORTANTE</h3><h3 className='modal-important'>EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTÁ DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</h3><h3 className='modal-important'>SE DEBE ESPECIFICAR SI LA ELECTROBOMBA SERÁ UTILIZADA CON GAS-OIL, AGUA O AGROQUÍMICOS.</h3></div>) : ('')}
+              {electrobomba ? (<div className='modal-important-container'><h3 className='modal-important-title'>IMPORTANTE</h3><p className='modal-important'>EL RENDIMIENTO FINAL DE LA ELECTROBOMBA ESTÁ DEFINIDO POR LOS ACCESORIOS QUE SE LE COLOCAN A LA MISMA.</p><h3 className='modal-important'>SE DEBE ESPECIFICAR SI LA ELECTROBOMBA SERÁ UTILIZADA CON GAS-OIL, AGUA O AGROQUÍMICOS.</h3></div>) : ('')}
             </ModalImportant>
             <CloseButton onClick={() => setState(false)}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
@@ -86,8 +86,12 @@ const ModalContainer = styled.div`
   border-radius: 24px;
   padding: 20px;
   font-family: 'Lato', sans-serif;
-  @media screen and (max-width:1100px) {
+  @media screen and (max-width:1400px) {
     width: 800px;
+  }
+
+  @media screen and (max-width:1100px) {
+    width: 700px;
   }
   
   @media screen and (max-width:800px) {
