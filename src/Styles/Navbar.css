@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
     }
 
     .navbar-buttons.active {
-        right: -71%;
+        right: -55%;
         transition: 0.6s ease;
     }
 
@@ -171,3 +171,17 @@ body::-webkit-scrollbar {
     }
 
     }
+
+@media screen and (max-width:840px) {
+    .navbar-buttons.active {
+        right: -61%;
+        transition: 0.6s ease;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .navbar-buttons.active {
+        right: -71%;
+        transition: 0.6s ease;
+    }
+}
