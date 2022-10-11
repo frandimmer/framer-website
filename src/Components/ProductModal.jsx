@@ -10,6 +10,11 @@ function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, acc
           <ModalContainer>
             <ModalTitle>
               <h1 className='title modal-title'>{nombre}</h1>
+              {nombre === 'Caudalímetro' ? <h1 className='title modal-title'>&nbsp;1"</h1> : ''}
+              {nombre === 'Caudalímetro ' ? <h1 className='title modal-title'>&nbsp;1 1/2"</h1> : ''}
+              {nombre === 'Pico Automático' ? <h1 className='title modal-title'>&nbsp;3/4"</h1> : ''}
+              {nombre === 'Pico Automático ' ? <h1 className='title modal-title'>&nbsp;1"</h1> : ''}
+              {nombre === 'Manguera' ? <h1 className='title modal-title'>&nbsp;1"</h1> : ''}
             </ModalTitle>
             <ModalGrid>
                 <div className='centered-div'>

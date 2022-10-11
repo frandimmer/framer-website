@@ -10,6 +10,12 @@ function ProductCardV2({ electrobomba, minisurtidor, accesorio, nombre, caudal, 
     <div className='product-card-v2'>
       <div className='product-title-v2-container'>
       <h3 className='product-title-v2'>{nombre}</h3>
+      {nombre === 'Caudalímetro' ? <h3 className='product-title-v2'>&nbsp;1"</h3> : ''}
+      {nombre === 'Caudalímetro ' ? <h3 className='product-title-v2'>&nbsp;1 1/2"</h3> : ''}
+      {nombre === 'Pico Automático' ? <h3 className='product-title-v2'>&nbsp;3/4"</h3> : ''}
+      {nombre === 'Pico Automático ' ? <h3 className='product-title-v2'>&nbsp;1"</h3> : ''}
+      {nombre === 'Manguera' ? <h3 className='product-title-v2'>&nbsp;1"</h3> : ''}
+
       </div>
       <div>
       <img className='product-image-v2' src={require(`../Images/Products/${nombre}.png`)} alt={nombre} />

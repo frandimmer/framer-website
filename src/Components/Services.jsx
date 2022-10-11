@@ -10,7 +10,7 @@ function Services() {
         <ServicesCard 
         name='GARANTÍA'
         img='warranty'
-        text='Debido a que fabricamos productos de excelente calidad y de alto rendimiento, los mismos salen de fabrica con 1 año de garantía incluída, la cual resguarda a los diversos clientes de cualquier desperfecto o inconveniente que se pueda presentar por alguna falla ocurrida durante la fabricación del producto. '
+        text='Debido a que fabricamos productos de excelente calidad y de alto rendimiento, los mismos salen de fabrica con 2 años de garantía incluída, la cual resguarda a los diversos clientes de cualquier desperfecto o inconveniente que se pueda presentar por alguna falla ocurrida durante la fabricación del producto.'
         />
         <ServicesCard 
         name='REPARACIÓN'
