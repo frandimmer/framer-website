@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/framer-website/static/css/main.fed2b07b.css",
-    "main.js": "/framer-website/static/js/main.8b2e19ec.js",
+    "main.css": "/framer-website/static/css/main.a43b3950.css",
+    "main.js": "/framer-website/static/js/main.b07a2a27.js",
     "static/media/hero.png": "/framer-website/static/media/hero.9df180dcf708d3c710a8.png",
     "static/media/hero-mobile.png": "/framer-website/static/media/hero-mobile.f4d238a0e6b3759e026f.png",
     "static/media/logo.png": "/framer-website/static/media/logo.0c7210c1216f99e9b509.png",
@@ -10,16 +10,16 @@
     "static/media/Minisurtidor S7000.png": "/framer-website/static/media/Minisurtidor S7000.36d6e19b62337dc8ad51.png",
     "static/media/Manguera.png": "/framer-website/static/media/Manguera.5a122816ab62e146dbca.png",
     "static/media/S21000.png": "/framer-website/static/media/S21000.6dd752ead3931b9fe7c8.png",
-    "static/media/Caudalímetro Grande.png": "/framer-website/static/media/Caudalímetro Grande.0e0bb7928e495e0762d9.png",
+    "static/media/Caudalímetro .png": "/framer-website/static/media/Caudalímetro .0e0bb7928e495e0762d9.png",
     "static/media/S15000.png": "/framer-website/static/media/S15000.0253d3e21922aeb3c9cd.png",
     "static/media/logo-2.png": "/framer-website/static/media/logo-2.e222c6caf7619850d5b7.png",
     "static/media/S7000-logo.png": "/framer-website/static/media/S7000-logo.2d4ff60ba2f34c8131e9.png",
-    "static/media/Caudalímetro Estándar.png": "/framer-website/static/media/Caudalímetro Estándar.be73293fbb53f02c4709.png",
+    "static/media/Caudalímetro.png": "/framer-website/static/media/Caudalímetro.be73293fbb53f02c4709.png",
     "static/media/S7000.png": "/framer-website/static/media/S7000.fc51567c337d74b049c1.png",
     "static/media/S4000.png": "/framer-website/static/media/S4000.caf21f3464dab352eabf.png",
-    "static/media/Pico Automático Grande.png": "/framer-website/static/media/Pico Automático Grande.238954697379e2513f4b.png",
+    "static/media/Pico Automático .png": "/framer-website/static/media/Pico Automático .238954697379e2513f4b.png",
     "static/media/Filtro.png": "/framer-website/static/media/Filtro.4bd5834f4e22477fd07a.png",
-    "static/media/Pico Automático Estándar.png": "/framer-website/static/media/Pico Automático Estándar.bcc1f8da97ba2a1c689c.png",
+    "static/media/Pico Automático.png": "/framer-website/static/media/Pico Automático.bcc1f8da97ba2a1c689c.png",
     "static/media/Pico Manual.png": "/framer-website/static/media/Pico Manual.3d9a9d8bd64592ead686.png",
     "static/media/phone.png": "/framer-website/static/media/phone.668b6ec21d346e4f037a.png",
     "static/media/whatsapp.png": "/framer-website/static/media/whatsapp.e9b8495883d4cecef300.png",
@@ -29,11 +29,11 @@
     "static/media/advice.png": "/framer-website/static/media/advice.0598fe4d3b9037a463f6.png",
     "static/media/mail.png": "/framer-website/static/media/mail.9bc706354a0cd34de3f5.png",
     "index.html": "/framer-website/index.html",
-    "main.fed2b07b.css.map": "/framer-website/static/css/main.fed2b07b.css.map",
-    "main.8b2e19ec.js.map": "/framer-website/static/js/main.8b2e19ec.js.map"
+    "main.a43b3950.css.map": "/framer-website/static/css/main.a43b3950.css.map",
+    "main.b07a2a27.js.map": "/framer-website/static/js/main.b07a2a27.js.map"
   },
   "entrypoints": [
-    "static/css/main.fed2b07b.css",
-    "static/js/main.8b2e19ec.js"
+    "static/css/main.a43b3950.css",
+    "static/js/main.b07a2a27.js"
   ]
 }
