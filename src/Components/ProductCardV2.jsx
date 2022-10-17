@@ -2,7 +2,7 @@ import { React, useState } from 'react'
 import ProductModal from './ProductModal'
 import '../Styles/ProductCardV2.css'
 
-function ProductCardV2({ electrobomba, minisurtidor, accesorio, nombre, caudal, entrada, salida, voltaje, consumo, peso }) {
+function ProductCardV2({ electrobomba, minisurtidor, accesorio, nombre, caudal, entrada, salida, voltaje, consumo, peso, corte, pico, caudalimetro }) {
   
   const [modalState, setModalState] = useState(false);
 
@@ -36,6 +36,9 @@ function ProductCardV2({ electrobomba, minisurtidor, accesorio, nombre, caudal, 
       salida={salida}
       voltaje={voltaje}
       consumo={consumo}
+      pico={pico}
+      corte={corte}
+      caudalimetro={caudalimetro}
       />
     </div>
   )

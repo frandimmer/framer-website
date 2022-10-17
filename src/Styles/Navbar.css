@@ -128,8 +128,8 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: start;
         top: 75px;
-        right: -130%;
-        width: 50%;
+        right: -200%;
+        width: 70%;
         background-color: white;
         padding: 20px;
         border-left: 1px solid #eee;
@@ -172,16 +172,30 @@ body::-webkit-scrollbar {
 
     }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:1040px) {
     .navbar-buttons.active {
-        right: -61%;
+        right: -75%;
         transition: 0.6s ease;
     }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:500px) {
     .navbar-buttons.active {
-        right: -71%;
+        right: -95%;
+        transition: 0.6s ease;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navbar-buttons.active {
+        right: -100%;
+        transition: 0.6s ease;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .navbar-buttons.active {
+        right: -115%;
         transition: 0.6s ease;
     }
 }

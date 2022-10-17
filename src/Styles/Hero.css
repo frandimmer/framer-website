@@ -111,3 +111,17 @@
         min-width: 200px;
     }
 }
+
+@media screen and (max-width:400px) {
+    .hero-title {
+        transform: translate(-50%, -10%);
+        min-width: 300px;
+        font-size: 1.3rem;
+    }
+
+    .hero-title-short {
+        font-size: 0.8rem;
+        min-width: 200px;
+    }
+}
+

@@ -20,7 +20,7 @@ function Navbar() {
                         <a onClick={handleClick} className="btn" href="#about">NOSOTROS</a>
                         <a onClick={handleClick} className="btn" href="#products">PRODUCTOS</a>
                         <a onClick={handleClick} className="btn" href="#services">SERVICIOS</a>
-                        <a onClick={handleClick} class='contact-btn' href="#contact">CONTACTO</a>
+                        <a onClick={handleClick} className='contact-btn' href="#contact">CONTACTO</a>
                     </div>
                 </div>
                 <div className='hamburger' onClick={handleClick}>

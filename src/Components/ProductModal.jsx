@@ -2,18 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import '../Styles/ProductModal.css'
 
-function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, accesorio, caudal, voltaje, entrada, salida, consumo, peso }) {
+function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, accesorio, caudal, voltaje, entrada, salida, consumo, peso, corte, pico, caudalimetro }) {
   return (
     <>
       {state && 
         <Overlay>
           <ModalContainer>
             <ModalTitle>
-              <h1 className='title modal-title'>{nombre}</h1>
-              {nombre === 'Caudalímetro' ? <h1 className='title modal-title'>&nbsp;1"</h1> : ''}
-              {nombre === 'Caudalímetro ' ? <h1 className='title modal-title'>&nbsp;1 1/2"</h1> : ''}
-              {nombre === 'Pico Automático' ? <h1 className='title modal-title'>&nbsp;3/4"</h1> : ''}
-              {nombre === 'Pico Automático ' ? <h1 className='title modal-title'>&nbsp;1"</h1> : ''}
+              <h2 className='title modal-title'>{nombre}</h2>
+              {nombre === 'Caudalímetro' ? <h2 className='title modal-title'>&nbsp;1"</h2> : ''}
+              {nombre === 'Caudalímetro ' ? <h2 className='title modal-title'>&nbsp;1 1/2"</h2> : ''}
+              {nombre === 'Pico Automático' ? <h2 className='title modal-title'>&nbsp;3/4"</h2> : ''}
+              {nombre === 'Pico Automático ' ? <h2 className='title modal-title'>&nbsp;1"</h2> : ''}
               {nombre === 'Manguera' ? <h1 className='title modal-title'>&nbsp;1"</h1> : ''}
             </ModalTitle>
             <ModalGrid>
@@ -48,6 +48,20 @@ function ProductModal({ state, setState, nombre, electrobomba, minisurtidor, acc
                     <div className='grid-div second'>{peso}</div>
                     <div className='grid-div first'>Consumo</div>
                     <div className='grid-div second'>{consumo}</div>
+                  </div>) : ('')}
+                  {pico ? (<div className='modal-grid-container'>
+                    <div className='grid-div first'>Entrada</div>
+                    <div className='grid-div second'>{entrada}</div>
+                    <div className='grid-div first'>Salida</div>
+                    <div className='grid-div second'>{salida}</div>
+                    <div className='grid-div first'>Corte</div>
+                    <div className='grid-div second'>{corte}</div>
+                  </div>) : ('')}
+                  {caudalimetro ? (<div className='modal-grid-container'>
+                    <div className='grid-div first'>Entrada</div>
+                    <div className='grid-div second'>{entrada}</div>
+                    <div className='grid-div first'>Salida</div>
+                    <div className='grid-div second'>{salida}</div>
                   </div>) : ('')}
                 </div>
             </ModalGrid>
@@ -103,6 +117,11 @@ const ModalContainer = styled.div`
   @media screen and (max-width:800px) {
     width: 450px;
     min-height: 625px
+  }
+
+  @media screen and (max-width:500px) {
+    width: 450px;
+    min-height: 550px
   }
 `;
 

@@ -7,7 +7,7 @@
 }
 
 .form {
-    min-width: 600px;
+    width: 600px;
     margin-top: 50px;
     border-radius: 12px;
     box-shadow: rgb(46, 46, 46) 0px 5px 25px -10px;
@@ -75,7 +75,7 @@
 
 @media screen and (max-width:700px) {
     .form {
-        min-width: 400px;
+        width: 340px;
         margin-top: 20px;
         padding: 25px;
     }
@@ -83,4 +83,6 @@
     .form label {
         font-size: 1rem;
     }
+
+
 }

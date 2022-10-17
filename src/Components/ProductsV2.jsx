@@ -99,18 +99,36 @@ function ProductsV2() {
           <div className='accesorios-grid'>
             <ProductCardV2 
             nombre='Caudalímetro'
+            caudalimetro={true}
+            entrada=''
+            salida=''
             />
             <ProductCardV2 
             nombre='Caudalímetro '
+            caudalimetro={true}
+            entrada=''
+            salida=''
             />
             <ProductCardV2 
             nombre='Pico Manual'
+            pico={true}
+            corte='Manual'
+            entrada=''
+            salida=''
             />
             <ProductCardV2 
             nombre='Pico Automático'
+            pico={true}
+            corte='Automático'
+            entrada=''
+            salida=''
             />
             <ProductCardV2 
             nombre='Pico Automático '
+            pico={true}
+            corte='Automático'
+            entrada=''
+            salida=''
             />
             <ProductCardV2 
             nombre='Manguera'

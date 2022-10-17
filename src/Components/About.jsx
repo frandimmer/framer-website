@@ -14,7 +14,7 @@ function About() {
         <div className='right'>
           <div className='about-right-center'>
             <h2 className='subtitle'>¿QUIENES SOMOS?</h2>
-            <p className='about-paragraph'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aut doloribus sequi nihil nemo, error fuga deserunt fugit corporis sint. Provident architecto magni minus dolor quidem voluptate tempora sunt aspernatur?</p>
+            <span className='about-paragraph'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aut doloribus sequi nihil nemo, error fuga deserunt fugit corporis sint. Provident architecto magni minus dolor quidem voluptate tempora sunt aspernatur?</span>
           </div>
           
         </div>

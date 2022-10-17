@@ -83,3 +83,36 @@
         font-size: 1.1rem;
     }
 }
+
+@media screen and (max-width:425px) {
+    .product-card-v2 {
+        width: 180px;
+    }
+
+    .product-image-v2 {
+        width: 155px;
+    }
+
+    .product-title-v2 {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media screen and (max-width:375px) {
+    .product-card-v2 {
+        width: 150px;
+    }
+
+    .product-image-v2 {
+        width: 130px;
+    }
+
+    .product-title-v2 {
+        font-size: 0.8rem;
+    }
+    .product-button-v2 {
+        font-size: 0.7rem;
+    }
+}
