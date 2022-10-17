@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/framer-website/static/css/main.ed926095.css",
-    "main.js": "/framer-website/static/js/main.0f0927a3.js",
+    "main.css": "/framer-website/static/css/main.d31ae05e.css",
+    "main.js": "/framer-website/static/js/main.d0194abf.js",
     "static/media/hero.png": "/framer-website/static/media/hero.9df180dcf708d3c710a8.png",
     "static/media/hero-mobile.png": "/framer-website/static/media/hero-mobile.f4d238a0e6b3759e026f.png",
     "static/media/logo.png": "/framer-website/static/media/logo.0c7210c1216f99e9b509.png",
     "static/media/S70000.png": "/framer-website/static/media/S70000.129ef0a3eac39e94b0ae.png",
     "static/media/Minisurtidor S15000.png": "/framer-website/static/media/Minisurtidor S15000.73b68adea0ef52b4e207.png",
     "static/media/Minisurtidor S7000.png": "/framer-website/static/media/Minisurtidor S7000.36d6e19b62337dc8ad51.png",
+    "static/media/Caudalímetro .png": "/framer-website/static/media/Caudalímetro .73039338233df253042f.png",
     "static/media/Manguera.png": "/framer-website/static/media/Manguera.5a122816ab62e146dbca.png",
+    "static/media/Caudalímetro.png": "/framer-website/static/media/Caudalímetro.e66904890e4eea282961.png",
     "static/media/S21000.png": "/framer-website/static/media/S21000.6dd752ead3931b9fe7c8.png",
-    "static/media/Caudalímetro .png": "/framer-website/static/media/Caudalímetro .0e0bb7928e495e0762d9.png",
+    "static/media/S7000.png": "/framer-website/static/media/S7000.8405433c9f7a9de95a8d.png",
+    "static/media/S4000.png": "/framer-website/static/media/S4000.4310dec66cbde990ee25.png",
     "static/media/S15000.png": "/framer-website/static/media/S15000.0253d3e21922aeb3c9cd.png",
     "static/media/logo-2.png": "/framer-website/static/media/logo-2.e222c6caf7619850d5b7.png",
+    "static/media/Filtro.png": "/framer-website/static/media/Filtro.b3ebb6c87f40f707f163.png",
     "static/media/S7000-logo.png": "/framer-website/static/media/S7000-logo.2d4ff60ba2f34c8131e9.png",
-    "static/media/Caudalímetro.png": "/framer-website/static/media/Caudalímetro.be73293fbb53f02c4709.png",
-    "static/media/S7000.png": "/framer-website/static/media/S7000.fc51567c337d74b049c1.png",
-    "static/media/S4000.png": "/framer-website/static/media/S4000.caf21f3464dab352eabf.png",
+    "static/media/S4000asd.png": "/framer-website/static/media/S4000asd.caf21f3464dab352eabf.png",
     "static/media/Pico Automático .png": "/framer-website/static/media/Pico Automático .238954697379e2513f4b.png",
-    "static/media/Filtro.png": "/framer-website/static/media/Filtro.4bd5834f4e22477fd07a.png",
     "static/media/Pico Automático.png": "/framer-website/static/media/Pico Automático.bcc1f8da97ba2a1c689c.png",
     "static/media/Pico Manual.png": "/framer-website/static/media/Pico Manual.3d9a9d8bd64592ead686.png",
     "static/media/phone.png": "/framer-website/static/media/phone.668b6ec21d346e4f037a.png",
@@ -29,11 +30,11 @@
     "static/media/advice.png": "/framer-website/static/media/advice.0598fe4d3b9037a463f6.png",
     "static/media/mail.png": "/framer-website/static/media/mail.9bc706354a0cd34de3f5.png",
     "index.html": "/framer-website/index.html",
-    "main.ed926095.css.map": "/framer-website/static/css/main.ed926095.css.map",
-    "main.0f0927a3.js.map": "/framer-website/static/js/main.0f0927a3.js.map"
+    "main.d31ae05e.css.map": "/framer-website/static/css/main.d31ae05e.css.map",
+    "main.d0194abf.js.map": "/framer-website/static/js/main.d0194abf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed926095.css",
-    "static/js/main.0f0927a3.js"
+    "static/css/main.d31ae05e.css",
+    "static/js/main.d0194abf.js"
   ]
 }
