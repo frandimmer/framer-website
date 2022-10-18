@@ -123,6 +123,11 @@ const ModalContainer = styled.div`
     width: 450px;
     min-height: 350px
   }
+
+  @media screen and (max-width:350px) {
+    width: 450px;
+    min-height: 150px
+  }
 `;
 
 const ModalTitle = styled.div`

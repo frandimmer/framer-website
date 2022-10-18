@@ -134,7 +134,7 @@
         font-size: 0.9rem;
     }
     .modal-important-container {
-        margin-top: -50px;
+        margin-top: -44px;
     }
     .grid-image {
         width: 50%;
@@ -144,5 +144,30 @@
     .modal-title{
         font-size: 1.5rem;
         margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .grid-div {
+        font-size: 0.65rem;
+        padding: 5px 8px;
+        width: 130px;
+    }
+    .modal-important-title {
+        font-size: 0.8rem;
+    }
+    .modal-important-container {
+        margin-top: -90px;
+        font-size: 0.65rem;
+    }
+    .grid-image {
+        width: 50%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .modal-title{
+        font-size: 1.25rem;
+        margin-top: 0px;
+        margin-bottom: -115px;
     }
 }

@@ -86,3 +86,20 @@
 
 
 }
+
+@media screen and (max-width:370px) {
+    .form {
+        width: 275px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+
+    .form label {
+        font-size: 0.8rem;
+    }
+
+    .recaptcha {
+        transform: scale(0.8);
+    }
+
+}
