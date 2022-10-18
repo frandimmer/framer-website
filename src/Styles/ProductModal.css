@@ -126,23 +126,26 @@
 
 @media screen and (max-width:500px) {
     .grid-div {
-        font-size: 0.9rem;
-        padding: 10px 15px;
+        font-size: 0.8rem;
+        padding: 7px 10px;
         width: 130px;
     }
     .modal-important-title {
-        font-size: 0.9rem;
+        font-size: 0.65rem;
     }
     .modal-important-container {
-        margin-top: -44px;
+        margin-top: -74px;
+    }
+    .modal-important {
+        font-size: 0.65rem;
     }
     .grid-image {
         width: 50%;
-        margin-top: 0px;
+        margin-top: -40px;
         margin-bottom: 0px;
     }
     .modal-title{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 0px;
     }
 }
@@ -154,16 +157,18 @@
         width: 130px;
     }
     .modal-important-title {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
     }
     .modal-important-container {
-        margin-top: -90px;
-        font-size: 0.65rem;
+        margin-top: -155px;
+    }
+    .modal-important {
+        font-size: 0.6rem;
     }
     .grid-image {
         width: 50%;
-        margin-top: 0px;
-        margin-bottom: 20px;
+        margin-top: -40px;
+        margin-bottom: 0px;
     }
     .modal-title{
         font-size: 1.25rem;
