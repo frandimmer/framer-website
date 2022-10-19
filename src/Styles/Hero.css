@@ -39,7 +39,7 @@
     color: white;
     font-size: 3.5rem;
     font-weight: 700;
-    min-width: 800px;
+    max-width: 800px;
 }
 
 .hero-title-short {

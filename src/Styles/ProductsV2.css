@@ -30,6 +30,12 @@
     column-gap: 100px;
 }
 
+.sbf-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
 .minisurtidores-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -59,6 +65,10 @@
     .electrobombas-grid {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 80px;
+    }
+
+    .sbf-grid {
+        column-gap: 20px;
     }
 
     .minisurtidores-grid {

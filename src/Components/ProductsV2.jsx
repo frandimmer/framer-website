@@ -55,8 +55,41 @@ function ProductsV2() {
           />
         </div>
       </div>
+
+
+      
       <div className='products-subtitle-container'>
-        <h1 className='subtitle'>MINISURTIDORES</h1>
+        <h1 className='subtitle'>EQUIPOS CON FILTRO</h1>
+      </div>
+      <div className='products-images-container'>
+        <div className='sbf-grid'>
+          <ProductCardV2 
+          nombre='Minisurtidor S7000'
+          minisurtidor={true}
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
+          />
+          <ProductCardV2 
+          nombre='Minisurtidor S15000'
+          minisurtidor={true}
+          entrada='1'
+          salida='1'
+          caudal='1'
+          voltaje='1'
+          peso='1'
+          consumo='1'
+          />
+        </div>
+      </div>
+
+
+
+      <div className='products-subtitle-container'>
+        <h1 className='subtitle'>EQUIPOS SURTIDORES</h1>
       </div>
       <div className='products-images-container'>
         <div className='minisurtidores-grid'>
